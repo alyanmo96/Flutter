@@ -1,3 +1,13 @@
+/*
+  need to add these dependencies to pubspec.yaml file
+  font_awesome_flutter: ^8.11.0
+  
+  http: ^0.12.2
+
+*/
+
+
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
