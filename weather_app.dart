@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
   Future getWeather() async{
     //i use open weather API 
     // on your API check if it F/C (Fahrenheit/Celsius) to get the known degree weather for you
-    http.Response response=await http.get("#######your API######");
+    http.Response response=await http.get("#######your API key######");
     var results=jsonDecode(response.body);
     setState(() {
       this.temp=results['main']['temp'];
